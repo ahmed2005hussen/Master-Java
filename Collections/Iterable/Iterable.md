@@ -1,6 +1,7 @@
 # Iterable 
 
-ال iterable هو interface في java نقدر نعمله implement. معني iterable ان ال object ده نقدر نلوب عليه يعني نقدر نعمل iteration علي العناصر بتاعته. ![[Pasted image 20261009104957.png|526]]
+ال iterable هو interface في java نقدر نعمله implement. معني iterable ان ال object ده نقدر نلوب عليه يعني نقدر نعمل iteration علي العناصر بتاعته. ![Iterable](../../images/Pasted%20image%2020261009104957.png)
+
 عندنا 3 فانكشنز جوا ال iterable :
 1. forEach()
 2. iterator()
@@ -8,7 +9,7 @@
 ## forEach
 - هي ببساطه طريقه علشان نقدر نعمل loop علي العناصر اللي عندي في ال array , list , او اي حاجه بت implements iterable.
 - ال default بتاعها انها بتستعمل ال **Enhanced for loop** :
-  ![[Pasted image 20261009110439.png]]
+  ![Enhanced for loop](../../images/Pasted%20image%2020261009110439.png)
 
 و ال Enhanced for loop بتستعمل من جواها ال iterator و هنعرفه كمان شويه.
 Example:
@@ -37,7 +38,7 @@ import java.util.List;
 الـ `iterator()` method بترجع Object من نوع `Iterator<T>`.
 
 الـ Object ده بيسمحلك تتحرك بين عناصر الـ Iterable واحدًا واحدًا, و بيحتوي جواه علي:
-![[Pasted image 20261009110929.png|472]]
+![Iterator interface](../../images/Pasted%20image%2020261009110929.png)
 
 - ناخد بالنا من حاجه الاول ان ال iterator ده مين اللي بيوفره؟ اللي بيوفره هو ال iterable و ده معناه اني مقدرش استعمل ال iterator لوحده لازم يبقا من object بي implement ال iterable و هنعرف ازاي نستعمله.
 
