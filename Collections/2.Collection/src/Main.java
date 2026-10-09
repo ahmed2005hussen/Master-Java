@@ -87,7 +87,7 @@ void main() {
     Collection<Integer> a21 = new ArrayList<>(
             List.of(1, 2, 3, 4)
     );
-    Collection<Integer> b11 = new ArrayList<>(List.of(2, 3));
+    Collection<Integer> b11 = new ArrayList<>(List.of(2, 3 , 5));
     a21.retainAll(b11);
     System.out.println(a21); // [2,3]
     a21.retainAll(new ArrayList<>());
