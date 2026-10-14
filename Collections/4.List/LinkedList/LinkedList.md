@@ -1,8 +1,7 @@
 - ال LinkedList  هو implementation لل List.
 - ال LinkedList مبنيه علي Doubly Linked List.
 
-![](../../../images/Pasted%20image%20261014202526.png)
-
+![](../../../images/Pasted%20image%2020261014202526.png)
 - ال Linked List من جوه عندها Node و بيحتوي علي الاتي: 
 1. ال item الحاجه اللي مخزننها 
 2. ال next و ده reference لل بعدي
