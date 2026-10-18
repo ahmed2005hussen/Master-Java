@@ -127,6 +127,23 @@ System.out.println(stack.pop()); // Ali
 
 -  و علشان كده حتي في الحالات اللي فيها ال ArrayList and LinkedList هما الاتنين O(n) ممكن ال ArrayList تبقي احسن .
 ---
+# NOTE
+- معلومه مهمه بقا , كنا قولنا علشان اوصل ب get(i) فا اصلا ال linked list من جوا هتلوب علشان توصل للعنصر ده و ترجعه
+- فا لو عملنا لوب بالطريقه العاديه كده هبقي O(n * n)  
+
+```java
+
+for(int i = 0 ; i < size ; i++){
+
+	linkedList.get(i); 
+}
+
+```
+- يعني هنا انا بلوب مره بال for  و مره جوا ال linkedList فا دي هتبقي n * n 
+
+الحل هنا اننا نستعمل enhanced for loop او for each او نتسعمل iterator و كده هنبقي O(n) عادي جداا
+
+---
 ## امتى أستخدم LinkedList؟
 
 - لو عايزين نضيف او نمسح من قدام او من الاخر لانهم O(1)
